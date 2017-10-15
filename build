@@ -1,0 +1,6 @@
+#!/bin/bash
+
+make clean 
+qmake uiadams.pro
+make
+sudo ./uiadams
