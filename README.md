@@ -3,7 +3,10 @@ The Qt project reads from a 5 way **GPIO switches** connected to **JetsonTK1** (
 
 The read from GPIO switches attached to Jetson is done in a Qthread started by the MainWindow of Qt. Communications are done with signal and slot method. signals are generated in GPIO read thread, slots in Qt UI classes.
 
-You must have Qt 4.3 or above installed.
+You must have Qt 4.3 or above installed. You can use QtCreator and Designer to run the project with root permissions.
+
+**SimpleGPIO** files are responsible for Buttonreads. 
+
 
 RUN 
 
